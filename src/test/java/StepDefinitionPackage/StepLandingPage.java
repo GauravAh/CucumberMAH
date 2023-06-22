@@ -40,6 +40,9 @@ public class StepLandingPage {
 	}
 	@And("Subject")
 	public void subject() {
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		WebElement SubjectField = driver.findElement(By.id("autocomplete"));
+		js.executeScript("arguments[0].value='testing_tech-maths';",SubjectField);
 	  
 	}
 	@And("Select valid date")
@@ -52,7 +55,7 @@ public class StepLandingPage {
 	}
 	@And("Enter Phone phoneno")
 	public void enter_phone_phoneno() {
-	    
+	    System.out.println("Please add phone no also..");
 	}
 	@And("Enter description")
 	public void enter_description() {
