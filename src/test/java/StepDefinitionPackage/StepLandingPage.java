@@ -55,7 +55,7 @@ public class StepLandingPage {
 	}
 	@And("Enter Phone phoneno")
 	public void enter_phone_phoneno() {
-	    
+	    System.out.println("Please add phone no also..");
 	}
 	@And("Enter description")
 	public void enter_description() {
