@@ -7,7 +7,8 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 		features = "src/test/java/FeaturePackage/",
 		glue = {"StepDefinitionPackage","Hooks"},
-		/* dryRun = true, */
+		/* dryRun = true, */ 
+		tags = "@smoke and @sanity",
 		monochrome =true
 		)
 public class Runnerclass extends AbstractTestNGCucumberTests {

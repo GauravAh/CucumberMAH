@@ -25,5 +25,9 @@ public class Propclass {
 		return properties.getProperty("emailid");
 	}
 	
+	public String getSubject() {
+		return properties.getProperty("subject");
+	}
+	
 	
 }

@@ -1,0 +1,8 @@
+23:15:54.093 [main] DEBUG StepDefinitionPackage.StepLandingPage - Email is entered
+23:16:18.739 [main] DEBUG Hooks.MyHooks - Window is closed
+23:16:28.387 [main] DEBUG Hooks.MyHooks - Url redirected to MAH
+23:16:28.568 [main] DEBUG Hooks.MyHooks - Browser is maximized
+23:16:32.530 [main] DEBUG Hooks.MyHooks - Window is closed
+23:24:54.717 [main] DEBUG Hooks.MyHooks - Url redirected to MAH
+23:24:55.012 [main] DEBUG Hooks.MyHooks - Browser is maximized
+23:24:59.531 [main] DEBUG Hooks.MyHooks - Window is closed
